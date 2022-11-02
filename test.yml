@@ -3,5 +3,6 @@
   hosts: localhost
   tasks:
     - name: demo task
-      debug: msg="hello there"
+      debug: msg="hello there" verbose="2"
+
 
